@@ -6,12 +6,16 @@
     <title>URL Shortener</title>
 </head>
 <body>
-    <div align="center">
-        <h2>Shorten a URL</h2>
-        <input type="text" id="urlInput" placeholder="Enter URL">
-        <button onclick="shortenUrl()">Shorten</button>
-        <p id="result"></p>
-    </div>
+    <table width="100%" height="100%" border="0">
+        <tr>
+            <td align="center" valign="middle">
+                <h2>Shorten a URL</h2>
+                <input type="text" id="urlInput" placeholder="Enter URL">
+                <button onclick="shortenUrl()">Shorten</button>
+                <p id="result"></p>
+            </td>
+        </tr>
+    </table>
 
     <script>
         async function shortenUrl() {
